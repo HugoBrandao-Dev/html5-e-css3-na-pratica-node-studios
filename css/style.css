@@ -29,6 +29,7 @@ h2 {
 
 p {
 	font-size: 1em;
+	text-indent: 50px;
 	color: #777;
 }
 
@@ -117,4 +118,33 @@ button, a {
 
 .menu .social-icons .btn-google:hover {
 	color: #d73d32;
+}
+
+/* PRINCIPAL */
+
+.principal {
+	width: 100%;
+	float: left;
+	padding: 20px 8%;
+}
+
+.principal .sobre {
+	width: 70%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.principal .sobre h2 {
+	margin-bottom: 15px;
+}
+
+.principal .sobre img {
+	width: 50%;
+	float: left;
+	border-radius: 5px;
+	margin: 0 15px 15px 0;
+}
+
+.principal .sobre p {
+	text-align: justify;
 }
