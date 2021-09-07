@@ -32,6 +32,10 @@ p {
 	color: #777;
 }
 
+button, a {
+	cursor: pointer;
+}
+
 /* CABEÇALHO */
 
 .cabecalho {
@@ -59,6 +63,7 @@ p {
 	width: 85%;
 	float: left;
 	padding: 15px 10px;
+	border-radius: 5px 0 0 5px;
 }
 
 .cabecalho form button {
@@ -67,6 +72,7 @@ p {
 	padding: 15px 10px;
 	background-color: #0cae98;
 	color: #fff;
+	border-radius: 0 5px 5px 0;
 }
 
 /* MENU */
@@ -89,4 +95,26 @@ p {
 
 .menu li a:hover {
 	color: #fff;
+}
+
+.menu .social-icons {
+	float: right;
+}
+
+.menu .social-icons a {
+	color: #fff;
+	float: left;
+	margin-left: 12px;
+}
+
+.menu .social-icons .btn-facebook:hover {
+	color: #3b5998;
+}
+
+.menu .social-icons .btn-twitter:hover {
+	color: #54a4d6;
+}
+
+.menu .social-icons .btn-google:hover {
+	color: #d73d32;
 }
